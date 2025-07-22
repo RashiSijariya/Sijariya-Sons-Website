@@ -1,0 +1,129 @@
+a{
+    text-decoration: none;
+    color: #ECF0F1;
+    font-size: 40px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+nav{
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#about{
+    font-size: 50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+}
+#father{
+    height: 400px;
+    width: 800px;
+    background-color: #2c3e50;
+    text-align: center;
+    margin: 50px auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+#pic1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ECF0F1;
+    margin: 0 auto 20px auto;
+}
+#intro1{
+    font-size: 30px;
+    color: #ECF0F1;
+    margin: 10px;
+    font-weight: bold;
+}
+#p1{
+    color: #ECF0F1;
+    font-size: 20px;
+    margin: 20px;
+}
+#mother{
+    height: 400px;
+    width: 800px;
+    background-color: #2c3e50;
+    text-align: center;
+    margin: 50px auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+#pic2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ECF0F1;
+    margin: 0 auto 20px auto;
+}
+#intro2{
+    font-size: 30px;
+    color: #ECF0F1;
+    margin: 10px;
+    font-weight: bold;
+}
+#p2{
+    color: #ECF0F1;
+    font-size: 20px;
+    margin: 20px;
+}
+#brother{
+    height: 400px;
+    width: 800px;
+    background-color: #2c3e50;
+    text-align: center;
+    margin: 50px auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+#pic3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ECF0F1;
+    margin: 0 auto 20px auto;
+}
+#intro3{
+    font-size: 30px;
+    color: #ECF0F1;
+    margin: 10px;
+    font-weight: bold;
+}
+#p3{
+    color: #ECF0F1;
+    font-size: 20px;
+    margin: 20px;
+}
+#staff{
+    height: 200px;
+    width: 800px;
+    background-color: #2c3e50;
+    text-align: center;
+    margin: 50px auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+#intro4{
+    font-size: 30px;
+    color: #ECF0F1;
+    margin: 10px;
+    font-weight: bold;
+}
+#p4{
+    color: #ECF0F1;
+    font-size: 20px;
+    margin: 20px;
+}
+footer{
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+}
