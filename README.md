@@ -14,5 +14,4 @@ Welcome to the official GitHub repository of *Sijariya Sons* – a trusted and e
 
 - HTML
 - CSS
-- JavaScript (vanilla)
 - Git & GitHub for version control and deployment
