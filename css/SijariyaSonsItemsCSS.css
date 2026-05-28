@@ -1,0 +1,176 @@
+#categories{
+    text-align:center;
+    font-size:65px;
+    margin-top:60px;
+    margin-bottom:70px;
+    font-weight:700;
+    color:#0f172a;
+    letter-spacing:2px;
+}
+#categories::after{
+    content:"";
+    width:120px;
+    height:5px;
+    background:#f59e0b;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+}
+#items{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:35px;
+    padding:20px;
+    margin-bottom:60px;
+}
+#item1,
+#item2,
+#item3,
+#item4,
+#item5,
+#item6,
+#item7,
+#item8,
+#item9{
+    width:260px;
+    min-height:320px;
+    background:linear-gradient(135deg,#1e3a8a,#0f172a);
+    border-radius:25px;
+    padding:35px 25px;
+    text-align:center;
+    transition:0.4s;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+#item1:hover,
+#item2:hover,
+#item3:hover,
+#item4:hover,
+#item5:hover,
+#item6:hover,
+#item7:hover,
+#item8:hover,
+#item9:hover{
+    transform:translateY(-10px);
+}
+#pic1,
+#pic2,
+#pic3,
+#pic4,
+#pic5,
+#pic6,
+#pic7,
+#pic8,
+#pic9{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    margin:0 auto 25px auto;
+    background-size:cover;
+    background-position:center;
+    border:5px solid #f59e0b;
+}
+#pic1{
+    background-image:url("../g&p.jpg");
+}
+
+#pic2{
+    background-image:url("../sandm.jpg");
+}
+
+#pic3{
+    background-image:url("../o&g.jpg");
+}
+
+#pic4{
+    background-image:url("../s&b.jpg");
+}
+
+#pic5{
+    background-image:url("../t\,c&b.jpg");
+}
+
+#pic6{
+    background-image:url("../s&s.jpg");
+}
+
+#pic7{
+    background-image:url("../ci.jpg");
+}
+
+#pic8{
+    background-image:url("../pf.jpg");
+}
+
+#pic9{
+    background-image:url("../pc.jpg");
+}
+#intro1,
+#intro2,
+#intro3,
+#intro4,
+#intro5,
+#intro6,
+#intro7,
+#intro8,
+#intro9{
+    color:white;
+    font-size:24px;
+    font-weight:600;
+    line-height:1.5;
+}
+@media(max-width:768px){
+
+    nav{
+        flex-wrap:wrap;
+        gap:20px;
+        padding:15px;
+    }
+
+    a{
+        font-size:16px;
+    }
+
+    #categories{
+        font-size:40px;
+    }
+
+    #item1,
+    #item2,
+    #item3,
+    #item4,
+    #item5,
+    #item6,
+    #item7,
+    #item8,
+    #item9{
+        width:90%;
+        max-width:320px;
+    }
+
+    #pic1,
+    #pic2,
+    #pic3,
+    #pic4,
+    #pic5,
+    #pic6,
+    #pic7,
+    #pic8,
+    #pic9{
+        width:130px;
+        height:130px;
+    }
+
+    #intro1,
+    #intro2,
+    #intro3,
+    #intro4,
+    #intro5,
+    #intro6,
+    #intro7,
+    #intro8,
+    #intro9{
+        font-size:20px;
+    }
+}

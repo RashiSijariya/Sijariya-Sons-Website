@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    overflow-x:hidden;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+nav{
+    background:#0f172a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav li{
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#f59e0b;
+}
+
+/* PAGE TITLE */
+
+.page-title{
+    text-align:center;
+    font-size:60px;
+    margin-top:60px;
+    margin-bottom:70px;
+    font-weight:700;
+    color:#0f172a;
+    letter-spacing:2px;
+}
+
+.page-title::after{
+    content:"";
+    width:120px;
+    height:5px;
+    background:#f59e0b;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+    margin-top:80px;
+}
+
+#footer h2{
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+#footer p{
+    font-size:18px;
+    margin:10px 0;
+    color:#cbd5e1;
+}
+
+footer a{
+    color:#f59e0b;
+}
+
+footer a:hover{
+    color:white;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    nav{
+        flex-wrap:wrap;
+        gap:20px;
+        padding:15px;
+    }
+
+    nav a{
+        font-size:16px;
+    }
+
+    .page-title{
+        font-size:38px;
+    }
+}
+/* FLOATING WHATSAPP BUTTON */
+
+.whatsapp-float{
+    position:fixed;
+    width:65px;
+    height:65px;
+    bottom:30px;
+    right:30px;
+    background:#25d366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    text-decoration:none;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    z-index:1000;
+    transition:0.3s;
+    animation:float 2s infinite ease-in-out;
+}
+
+.whatsapp-float:hover{
+    transform:scale(1.12);
+    background:#128c7e;
+}
+
+/* FLOATING EFFECT */
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-8px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+body.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode nav{
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .card{
+    background-color: #2a2a2a;
+    color: white;
+}
+
+#darkModeToggle{
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+body.dark-mode #about{
+    color: #fffdfd;;
+}
+body.dark-mode #title{
+    color: #fffdfd;;
+}
+body.dark-mode #contact{
+    color: #fffdfd;;
+}
+body.dark-mode #categories{
+    color: #fffdfd;;
+}
