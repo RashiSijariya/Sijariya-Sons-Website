@@ -48,11 +48,11 @@
     overflow:hidden;
 }
 #img1{
-    background-image:url("../s1.jpg");
+    background-image:url("../images/s1.jpg");
 }
 
 #img2{
-    background-image:url("../s3.jpg");
+    background-image:url("../images/s3.jpg");
 }
 #img1:hover,
 #img2:hover{
@@ -102,24 +102,4 @@
 #intro,
 #images{
     animation:fadeIn 1s ease;
-}
-body.dark-mode{
-    background-color: #121212;
-    color: white;
-}
-
-body.dark-mode nav{
-    background-color: #1f1f1f;
-}
-
-body.dark-mode .card{
-    background-color: #2a2a2a;
-    color: white;
-}
-
-#darkModeToggle{
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
 }
